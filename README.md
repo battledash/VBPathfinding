@@ -15,4 +15,5 @@ For i = 0 To path.Count - 1
     Dim list As List(Of Integer) = path.ElementAt(i)
     Debug.WriteLine("X" & i & ": " & list.ElementAt(0))
     Debug.WriteLine("Y" & i & ": " & list.ElementAt(1))
-Next```
+Next
+```
