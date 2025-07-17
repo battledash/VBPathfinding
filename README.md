@@ -6,7 +6,7 @@ Includes Manhattan, Euclidean, Octile, and Chebyshev Heuristics, (Manhattan by d
 Currently does not support diagonal pathfinding
 
 Basic Usage:
-```
+```vb
 Dim gridTest As Grid = New Grid(10, 10)
 gridTest.SetWalkable(0, 1, Fale)
 Dim finder As New AStarFinder()
