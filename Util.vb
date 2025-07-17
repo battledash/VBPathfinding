@@ -15,6 +15,9 @@
         Return path
     End Function
     Public Shared Function PopList(listToPop As List(Of AStarNode)) As Tuple(Of AStarNode, List(Of AStarNode))
+        If listToPop.Count = 0 Then
+            Throw New ArgumentException("Cannot pop from an empty list.")
+        End If
         Dim index As Integer = listToPop.Count - 1
         Dim val = listToPop.ElementAt(index)
         listToPop.RemoveAt(index)
