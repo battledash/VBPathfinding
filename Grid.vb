@@ -67,6 +67,17 @@
         End If
         Return neighbours
     End Function
+    Public Function CountWalkableCells() As Integer
+        Dim count As Integer = 0
+        For i As Integer = 0 To height - 1
+            For j As Integer = 0 To width - 1
+                If nodes(i)(j).walkable Then
+                    count += 1
+                End If
+            Next
+        Next
+        Return count
+    End Function
     Public Sub SetBordersNonWalkable()
         ' Set top and bottom borders
         For x As Integer = 0 To width - 1
