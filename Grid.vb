@@ -78,4 +78,16 @@
         Next
         Return count
     End Function
+    Public Sub SetBordersNonWalkable()
+        ' Set top and bottom borders
+        For x As Integer = 0 To width - 1
+            nodes(0)(x).walkable = False
+            nodes(height - 1)(x).walkable = False
+        Next
+        ' Set left and right borders
+        For y As Integer = 0 To height - 1
+            nodes(y)(0).walkable = False
+            nodes(y)(width - 1).walkable = False
+        Next
+    End Sub
 End Class
