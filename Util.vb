@@ -1,4 +1,6 @@
 ﻿Public Class Util
+    ' Constructs the path from the start node to the specified node by traversing the parent references.
+    ' Returns a list of (x, y) coordinate pairs in order from start to goal.
     Public Shared Function Backtrace(node As AStarNode) As List(Of List(Of Integer))
         Dim path As New List(Of List(Of Integer))
         path.Insert(0, New List(Of Integer))
