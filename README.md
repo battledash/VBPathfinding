@@ -1,5 +1,5 @@
 # VB Pathfinding
-An A* Pathfinding Library for VB.NET
+An A* Pathfinding Library for [VB.NET](https://de.wikipedia.org/wiki/Visual_Basic_.NET)
 
 Includes Manhattan (default), Euclidean, Octile, and Chebyshev Heuristics
 Currently does not support diagonal pathfinding
