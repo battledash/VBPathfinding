@@ -1,7 +1,7 @@
 # VB Pathfinding
 An A* Pathfinding Library for VB.NET
 
-Includes Manhattan, Euclidean, Octile, and Chebyshev Heuristics, (Manhattan by default)
+Includes Manhattan (default), Euclidean, Octile, and Chebyshev Heuristics
 Currently does not support diagonal pathfinding
 
 Basic Usage:
