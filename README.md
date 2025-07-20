@@ -1,4 +1,3 @@
-
 # VB Pathfinding
 An A* Pathfinding Library for VB.NET
 
